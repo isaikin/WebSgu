@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:90%;
+    margin: 0 auto;
+}
+body{
+	min-width: 500px;
+}
+
+.row:before,
+.row:after,
+.container:before,
+.container:after{
+    content: " ";
+    display: table;
+}
+
+.row:after{
+    clear: both;
+}
+.header-popular{
+	font-family: "MV BOLI";
+	font-size: 20px;
+	background: #A1D2D2;
+}
+
+.bottom-link{
+	list-style-type: none;
+}
+li{
+	margin: 5px;
+}
+
+ a{
+	 text-decoration: underline;
+	 color: #000;
+ }
+
+.col{
+    float: left;
+    margin: 0 0 1em;
+    padding: 0 1em;
+    text-align: center;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.p{
+	 font-family: Courier;
+}
+
+.top-menu{
+	color: #000;
+	float: right;
+	margin: 0 0 2em; 
+    padding: 0 1em;
+    text-align: center;
+	background-color: white;
+	border: 0px;
+}
+.top-menu-color{
+	background: #DADADA;
+}
+.top-menu-xs{
+	padding: 25px;
+}
+

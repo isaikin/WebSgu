@@ -1,0 +1,101 @@
+.header, .sidebar, .content, .footer { 
+    padding: 10px; 
+  
+   }
+   .header { 
+    font-size: 18px; 
+   }
+   .layout {
+        margin: 15px 0; 
+        overflow: hidden; 
+        min-width: 800px; 
+        max-width: 1200px; 
+        display: inline;
+   }
+   .sidebar { 
+    width: 100px; 
+    float: left; 
+   }
+   .sidebar ul {
+    list-style: none;
+    padding: 0; 
+   }
+   .content { 
+    margin-left: 135px; 
+   }
+   .header .navbar > ul {
+    list-style: none;   
+    text-align: right;
+   }
+   .header .navbar > ul > li {
+       display: inline;
+       margin-left: 10px;
+   }
+   body{
+    margin-left: 100px;
+    margin-right: 200px;
+    background: rgb(202, 218, 231);
+   }
+   .footer .navbar > ul {
+    list-style: none;
+    padding: 0px;
+   }
+   .footer .navbar > ul > li {
+       display: inline;
+       padding: 5px;
+       border-right: 1px solid black;
+   }
+
+   .layout > .sidebar > ul > li {
+     padding: 5px; 
+     border-bottom: 1px solid rgb(165, 188, 202);
+ }
+
+ .sidebar ul > li:hover{
+    color:white;
+    cursor: pointer;
+    background: rgb(147, 192, 223)
+ }
+ .main-table{
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.main-table table{
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-table tr,th,td{
+    text-align: center;
+    border: 1px solid rgb(37,87,114);
+}
+
+.main-table .header-row{
+    background-color: rgb(94,160,208);
+}
+
+.color-red{
+    color: red;
+}
+
+.color-green{
+    color: green;
+}
+.color-blue{
+    color: blue;
+}
+.color-purple{
+    color: purple;
+}
+.color-yellow{
+    color: yellow;
+}
+.color-grey {
+    color:grey;
+}
+.color-magenta{
+    color: magenta
+}
